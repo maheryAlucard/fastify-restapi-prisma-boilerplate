@@ -13,4 +13,3 @@ const build = () => {
     return server;
 };
 exports.default = build;
-//# sourceMappingURL=application.js.map

@@ -19,11 +19,15 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.registerItemsRoutes = void 0;
+exports.registerProtectedItemsRoutes = exports.registerItemsRoutes = void 0;
+const AuthentMiddleware_1 = require("../Middleware/AuthentMiddleware");
 const itemRouts = __importStar(require("../Controllers/ItemsController"));
 const routeBase = 'items';
 const registerItemsRoutes = (fastify) => {
     fastify.get(`/${routeBase}/`, itemRouts.getAllItems(fastify));
 };
 exports.registerItemsRoutes = registerItemsRoutes;
-//# sourceMappingURL=ItemsRoutes.js.map
+const registerProtectedItemsRoutes = (fastify) => {
+    fastify.get(`/${routeBase}/:id`, { preHandler: [(0, AuthentMiddleware_1.checkToken)(fastify)] }, itemRouts.getAllItems(fastify));
+};
+exports.registerProtectedItemsRoutes = registerProtectedItemsRoutes;

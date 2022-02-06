@@ -17,9 +17,8 @@ const checkToken = (fastify) => ((req, send) => __awaiter(void 0, void 0, void 0
     }
     catch (cerror) {
         fastify.log.error(cerror);
-        let error = cerror.toString();
+        const error = cerror.toString();
         send.status(500).send((0, generator_1.defaultMessage)(error));
     }
 }));
 exports.checkToken = checkToken;
-//# sourceMappingURL=AuthentMiddleware.js.map

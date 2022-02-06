@@ -16,4 +16,3 @@ const getAllItems = (fastify) => ((req, send) => __awaiter(void 0, void 0, void 
     return (lists);
 }));
 exports.getAllItems = getAllItems;
-//# sourceMappingURL=ItemsController.js.map

@@ -7,4 +7,3 @@ const defaultMessage = (message, success) => ({
     data: null
 });
 exports.defaultMessage = defaultMessage;
-//# sourceMappingURL=generator.js.map
