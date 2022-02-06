@@ -1,3 +1,6 @@
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
+
 export const _getAllUsers = async () => {
-    return ('User service...');
-}
+    return await prisma.user.findMany();
+};

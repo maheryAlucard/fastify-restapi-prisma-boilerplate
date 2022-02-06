@@ -22,12 +22,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.registerProtectedItemsRoutes = exports.registerItemsRoutes = void 0;
 const AuthentMiddleware_1 = require("../Middleware/AuthentMiddleware");
 const itemRouts = __importStar(require("../Controllers/ItemsController"));
-const routeBase = 'items';
+const config_1 = require("../Global/config");
 const registerItemsRoutes = (fastify) => {
-    fastify.get(`/${routeBase}/`, itemRouts.getAllItems(fastify));
+    fastify.get(`${config_1.apiPrefix}/${config_1.routeBase.item}/`, itemRouts.getAllItems(fastify));
 };
 exports.registerItemsRoutes = registerItemsRoutes;
 const registerProtectedItemsRoutes = (fastify) => {
-    fastify.get(`/${routeBase}/:id`, { preHandler: [(0, AuthentMiddleware_1.checkToken)(fastify)] }, itemRouts.getAllItems(fastify));
+    fastify.get(`${config_1.apiPrefix}/${config_1.routeBase.item}/:id`, { preHandler: [(0, AuthentMiddleware_1.checkToken)(fastify)] }, itemRouts.getAllItems(fastify));
 };
 exports.registerProtectedItemsRoutes = registerProtectedItemsRoutes;

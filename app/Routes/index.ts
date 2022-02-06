@@ -5,5 +5,5 @@ import { registerSocket } from './Sockets';
 export const registerRoutes = (fastify: FastifyInstance) => {
   registerItemsRoutes(fastify);
   registerProtectedItemsRoutes(fastify);
-  registerSocket(fastify)
+  registerSocket(fastify);
 };
