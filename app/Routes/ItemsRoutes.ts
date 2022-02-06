@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import * as itemRouts from '../controllers/ItemsController';
+import * as itemRouts from '../Controllers/ItemsController';
 const routeBase = 'items';
 
 export const registerItemsRoutes = (fastify: FastifyInstance) => {
