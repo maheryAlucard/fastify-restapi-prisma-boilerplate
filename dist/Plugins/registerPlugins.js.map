@@ -1,0 +1,1 @@
+{"version":3,"file":"registerPlugins.js","sourceRoot":"","sources":["../../app/Plugins/registerPlugins.ts"],"names":[],"mappings":";;;;;;;AACA,8DAAqC;AAErC,MAAM,MAAM,GAAG,MAAA,OAAO,CAAC,GAAG,CAAC,YAAY,mCAAI,mBAAmB,CAAC;AAExD,MAAM,sBAAsB,GAAG,CAAC,OAAwB,EAAE,EAAE;IAC/D,OAAO,CAAC,QAAQ,CAAC,qBAAU,EAAE,EAAE,MAAM,EAAE,MAAM,EAAE,CAAC,CAAC;AACrD,CAAC,CAAA;AAFY,QAAA,sBAAsB,0BAElC"}

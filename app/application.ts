@@ -6,9 +6,9 @@ import { registerRoutes } from './Routes';
 const server: FastifyInstance<Server, IncomingMessage, ServerResponse> = fastify({ logger: true });
 
 const build = () => {
-    registerFastifyPlugins(server);
-    registerRoutes(server);
-    return server;
+  registerFastifyPlugins(server);
+  registerRoutes(server);
+  return server;
 };
 
 export default build;

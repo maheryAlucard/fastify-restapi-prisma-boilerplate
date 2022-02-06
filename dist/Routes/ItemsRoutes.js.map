@@ -1,0 +1,1 @@
+{"version":3,"file":"ItemsRoutes.js","sourceRoot":"","sources":["../../app/Routes/ItemsRoutes.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;AACA,0EAA4D;AAC5D,MAAM,SAAS,GAAG,OAAO,CAAC;AAEnB,MAAM,mBAAmB,GAAG,CAAC,OAAwB,EAAE,EAAE;IAC9D,OAAO,CAAC,GAAG,CAAC,IAAI,SAAS,GAAG,EAAE,SAAS,CAAC,WAAW,CAAC,OAAO,CAAC,CAAC,CAAC;AAChE,CAAC,CAAC;AAFW,QAAA,mBAAmB,uBAE9B"}
