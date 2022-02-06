@@ -12,7 +12,9 @@
     "variable-name": [false],
     "function-name": [false],
     "no-unused-expression": [false],
-    "ter-ident": [false]
+    "ter-ident": [false],
+    "max-line-length": [false],
+    "ter-indent": [false]
   },
   "rulesDirectory": []
 }

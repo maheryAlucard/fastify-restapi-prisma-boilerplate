@@ -6,7 +6,7 @@
     "noImplicitAny": false,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "strict": true,
     "outDir": "dist",
     "baseUrl": ".",
@@ -14,5 +14,5 @@
       "*": ["node_modules/*"]
     }
   },
-  "include": ["app/**/*", "db/*.json"]
+  "include": ["app/**/*", "db/*.json", "prisma/**/*.prisma"]
 }

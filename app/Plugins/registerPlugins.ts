@@ -1,7 +1,7 @@
 import { FastifyInstance } from 'fastify';
 import fastifyJWT from 'fastify-jwt';
-import fastifyCors from "fastify-cors";
-import helmet from "fastify-helmet";
+import fastifyCors from 'fastify-cors';
+import helmet from 'fastify-helmet';
 
 const secret = process.env.TOKEN_SECRET ?? 'token-secret-text';
 
