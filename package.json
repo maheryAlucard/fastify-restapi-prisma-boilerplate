@@ -1,7 +1,7 @@
 {
-  "name": "fastify-typscript-boilerplate",
+  "name": "___project_name___",
   "version": "1.0.0",
-  "description": "fastify boiler plate with typscript and more",
+  "description": "backend with fastify, prisma, and more ...",
   "main": "dist/app/index.js",
   "scripts": {
     "prebuild": "npm run lint",
