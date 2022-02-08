@@ -10,6 +10,7 @@
     "postinstall": "npm run build",
     "start": "node --inspec=5858 -r ts-node/register ./app/index.ts",
     "start:watch": "nodemon",
+    "dev": "nodemon",
     "lint": "tslint -c tslint.json -p tsconfig.json --fix",
     "syncdb": "npx prisma db push && npx prisma generate",
     "g:model": "hygen model new --name",
