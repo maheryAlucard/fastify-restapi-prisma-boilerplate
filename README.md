@@ -2,12 +2,12 @@
 
 This project is a NodeJs REST-API combined of [fastify](https://www.fastify.io/) [prisma](https://www.prisma.io) and [hygen](https://www.hygen.io/), to help developer concentrate on the coding by simplifying repetitive actions.
 
-Database and model are managed by [prisma](https://www.prisma.io) ORM
+Database and model are managed by [prisma](https://www.prisma.io) ORM.
 Template are managed by [hygen](https://www.hygen.io/)
 
 ## Installation
 
-You can clone the project and modify the name or you can use [bms-cli-mg](https://www.npmjs.com/package/bms-cli-mg) to create the your project.
+You can clone the project and modify the name or you can use [bms-cli-mg](https://www.npmjs.com/package/bms-cli-mg) to create your project.
 For both methods you need to have [git](https://git-scm.com/) installed.
 
 ### Installation of [bms-cli-mg](https://www.npmjs.com/package/bms-cli-mg)
