@@ -10,6 +10,8 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+//generated model goes here don't delete this line
+
 model Post {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
