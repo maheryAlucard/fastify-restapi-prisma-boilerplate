@@ -1,5 +1,5 @@
 ---
-to: app/Routes/<%= h.changeCase.lower(name) %>Routes.ts
+to: app/Routes/<%= h.changeCase.pascal(name) %>sRoutes.ts
 ---
 import { checkToken } from '../Middleware/AuthentMiddleware';
 import { FastifyInstance } from 'fastify';
