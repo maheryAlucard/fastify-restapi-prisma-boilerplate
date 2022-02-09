@@ -2,7 +2,7 @@
 to: app/Controllers/<%= h.changeCase.pascal(name) %>sController.ts
 ---
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
-import * as <%= h.changeCase.lower(name) %>Service from '../Services/<%= h.changeCase.lower(name) %>Services';
+import * as <%= h.changeCase.lower(name) %>Service from '../Services/<%= h.changeCase.pascal(name) %>sServices';
 
 export const getAll<%= h.changeCase.pascal(name) %>s = (fastify: FastifyInstance) =>
 (async (req: FastifyRequest, send: FastifyReply) => {

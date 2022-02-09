@@ -3,7 +3,7 @@ to: app/Routes/<%= h.changeCase.pascal(name) %>sRoutes.ts
 ---
 import { checkToken } from '../Middleware/AuthentMiddleware';
 import { FastifyInstance } from 'fastify';
-import * as <%= h.changeCase.lower(name) %>Controller from '../Controllers/<%= h.changeCase.lower(name) %>Controller';
+import * as <%= h.changeCase.lower(name) %>Controller from '../Controllers/<%= h.changeCase.pascal(name) %>sController';
 import { apiPrefix, routeBase } from '../Global/config';
 
 export const register<%= h.changeCase.pascal(name) %>sRoutes = (fastify: FastifyInstance) => {
