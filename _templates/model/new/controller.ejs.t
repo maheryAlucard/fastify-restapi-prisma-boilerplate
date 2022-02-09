@@ -1,5 +1,5 @@
 ---
-to: app/Controllers/<%= h.changeCase.lower(name) %>Controller.ts
+to: app/Controllers/<%= h.changeCase.pascal(name) %>sController.ts
 ---
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import * as <%= h.changeCase.lower(name) %>Service from '../Services/<%= h.changeCase.lower(name) %>Services';

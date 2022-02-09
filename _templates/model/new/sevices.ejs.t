@@ -1,5 +1,5 @@
 ---
-to: app/Services/<%= h.changeCase.lower(name) %>Services.ts
+to: app/Services/<%= h.changeCase.pascal(name) %>sServices.ts
 ---
 import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
